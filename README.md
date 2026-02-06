@@ -1,8 +1,3 @@
-Got it — let’s reset and give you a **clean, sharp, recruiter-friendly README** that actually *feels good*, not overcooked.
-This version is **simple, modern, and portfolio-appropriate**, with **npm steps**, **future enhancements**, and no cringe.
-
-You can copy-paste this directly 👇
-
 ---
 
 # 🇦🇪 Paras Panchal — Full Stack Engineer & AI Enthusiast
