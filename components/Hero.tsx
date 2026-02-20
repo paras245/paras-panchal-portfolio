@@ -57,7 +57,7 @@ const Hero: React.FC<HeroProps> = ({ t, lang }) => {
         <div className="relative z-10 order-2 lg:order-1 text-center lg:text-left">
           <motion.p
             initial={{ opacity: 0, y: 10 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }}
             className="text-[#D4AF37] font-medium tracking-[0.4em] uppercase mb-4 text-[10px] md:text-sm"
           >
             {t.location}
@@ -93,7 +93,7 @@ const Hero: React.FC<HeroProps> = ({ t, lang }) => {
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }}
             transition={{ delay: 0.4 }}
             className="text-gray-400 max-w-lg mx-auto lg:mx-0 text-sm md:text-lg leading-relaxed mb-10 md:mb-12 font-light"
           >
@@ -102,7 +102,7 @@ const Hero: React.FC<HeroProps> = ({ t, lang }) => {
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }}
             transition={{ delay: 0.5 }}
             className="flex flex-col sm:flex-row flex-wrap gap-4 md:gap-6 justify-center lg:justify-start"
           >
@@ -140,7 +140,7 @@ const Hero: React.FC<HeroProps> = ({ t, lang }) => {
         <div className="relative order-1 lg:order-2 flex justify-center items-center">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
+            whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true, amount: 0.1 }}
             className="relative w-[280px] h-[350px] sm:w-[320px] sm:h-[400px] md:w-[400px] md:h-[500px] rounded-3xl overflow-hidden group border-2 border-[#D4AF37]/20 hover:border-[#D4AF37] transition-all duration-700 hover:shadow-[0_0_50px_rgba(212,175,55,0.3)]"
           >
             {/* Image */}

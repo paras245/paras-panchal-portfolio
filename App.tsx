@@ -138,7 +138,7 @@ const App: React.FC = () => {
                 <motion.div
                   key={idx}
                   initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
+                  whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }}
                   transition={{ delay: cert.delay }}
                   className="glassmorphism p-6 md:p-12 rounded-3xl flex flex-col md:flex-row items-center gap-10 md:gap-16 relative overflow-hidden"
                 >

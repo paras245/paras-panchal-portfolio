@@ -111,7 +111,7 @@ const Experience: React.FC<ExperienceProps> = ({ t }) => {
       <div className="container mx-auto">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }}
           className="mb-20"
         >
           <h2 className="text-3xl md:text-4xl font-bold gold-shimmer uppercase tracking-[0.2em]">{t.experienceTitle}</h2>

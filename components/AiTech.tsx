@@ -17,7 +17,7 @@ const AiTech: React.FC<AiTechProps> = ({ t }) => {
         <div className="max-w-4xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
+            whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true, amount: 0.1 }}
             className="inline-block px-4 py-1 border border-[#D4AF37]/40 text-[#D4AF37] text-[10px] uppercase tracking-[0.4em] mb-8"
           >
             Pioneering Intelligence
@@ -36,7 +36,7 @@ const AiTech: React.FC<AiTechProps> = ({ t }) => {
               <motion.div
                 key={i}
                 initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
+                whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }}
                 transition={{ delay: i * 0.1 }}
                 className="flex flex-col items-center"
               >

@@ -24,7 +24,7 @@ const Skills: React.FC<SkillsProps> = ({ t }) => {
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }}
           className="text-center mb-20"
         >
           <h2 className="text-4xl font-bold gold-shimmer mb-4 uppercase tracking-[0.2em]">{t.skillsTitle}</h2>
@@ -36,7 +36,7 @@ const Skills: React.FC<SkillsProps> = ({ t }) => {
             <motion.div
               key={idx}
               initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
+              whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true, amount: 0.1 }}
               transition={{ delay: idx * 0.1 }}
               whileHover={{ y: -5 }}
               className="p-8 bg-[#141414] border border-[#D4AF37]/10 hover:border-[#D4AF37]/40 transition-all duration-300 relative group"

@@ -56,7 +56,7 @@ const Contact: React.FC<ContactProps> = ({ t }) => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, amount: 0.1 }}
           >
             <h4 className="text-[#D4AF37] font-bold text-xs uppercase tracking-[0.4em] mb-4">Direct Communication</h4>
             <h2 className="text-5xl md:text-7xl font-bold gold-shimmer mb-8 tracking-tighter">{t.contactTitle}</h2>
@@ -74,7 +74,7 @@ const Contact: React.FC<ContactProps> = ({ t }) => {
 
           <motion.div
             initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }}
             className="grid grid-cols-1 gap-6"
           >
             {contactMethods.map((method, idx) => (

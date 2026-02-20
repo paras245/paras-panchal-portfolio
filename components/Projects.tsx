@@ -126,7 +126,7 @@ const Projects: React.FC<ProjectsProps> = ({ t }) => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-20 gap-6">
           <motion.div
              initial={{ opacity: 0, x: -30 }}
-             whileInView={{ opacity: 1, x: 0 }}
+             whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, amount: 0.1 }}
           >
             <h2 className="text-3xl md:text-5xl font-bold gold-shimmer uppercase tracking-[0.2em]">{t.projectsTitle}</h2>
             <p className="text-gray-500 mt-2 font-light tracking-widest text-xs md:text-sm">Scalable Solutions for Global Enterprise</p>
