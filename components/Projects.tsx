@@ -72,20 +72,20 @@ const ProjectCard: React.FC<{ p: any, idx: number }> = ({ p, idx }) => {
   const scale = useTransform(scrollYProgress, [0, 0.4], [0.95, 1]);
 
   return (
-    <motion.div 
+    <motion.div
       ref={containerRef}
       style={{ x, opacity, scale }}
       className="group relative bg-[#141414] border border-[#D4AF37]/10 overflow-hidden flex flex-col rounded-xl shadow-xl hover:shadow-[#D4AF37]/5 transition-all duration-500"
     >
       <div className="aspect-video relative overflow-hidden">
-        <img 
-          src={p.image} 
-          alt={p.title} 
+        <img
+          src={p.image}
+          alt={p.title}
           className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-40 group-hover:opacity-100 grayscale group-hover:grayscale-0"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#141414] via-transparent to-transparent opacity-95" />
       </div>
-      
+
       <div className="p-6 flex-grow flex flex-col relative">
         <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-[#D4AF37] transition-colors mb-3 tracking-tight">{p.title}</h3>
         <p className="text-gray-400 mb-6 text-xs md:text-sm leading-relaxed font-light line-clamp-2">{p.description}</p>
@@ -100,18 +100,18 @@ const ProjectCard: React.FC<{ p: any, idx: number }> = ({ p, idx }) => {
           <div className="flex gap-6">
             {p.github && (
               <a href={p.github} target="_blank" className="text-[#D4AF37] text-[10px] font-bold uppercase tracking-widest hover:text-white flex items-center gap-2 transition-colors">
-                Source <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                Source <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
               </a>
             )}
             {p.demo && (
               <a href={p.demo} target="_blank" className="text-[#D4AF37] text-[10px] font-bold uppercase tracking-widest hover:text-white flex items-center gap-2 transition-colors">
-                Live <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                Live <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
               </a>
             )}
           </div>
         </div>
       </div>
-      
+
       {/* Burj accent line */}
       <div className="absolute top-0 right-0 w-[1px] h-0 bg-[#D4AF37] group-hover:h-full transition-all duration-700" />
       <div className="absolute bottom-0 left-0 w-0 h-[1px] bg-[#D4AF37] group-hover:w-full transition-all duration-700" />
@@ -125,8 +125,9 @@ const Projects: React.FC<ProjectsProps> = ({ t }) => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-20 gap-6">
           <motion.div
-             initial={{ opacity: 0, x: -30 }}
-             whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, amount: 0.1 }}
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, amount: 0.1 }}
           >
             <h2 className="text-3xl md:text-5xl font-bold gold-shimmer uppercase tracking-[0.2em]">{t.projectsTitle}</h2>
             <p className="text-gray-500 mt-2 font-light tracking-widest text-xs md:text-sm">Scalable Solutions for Global Enterprise</p>

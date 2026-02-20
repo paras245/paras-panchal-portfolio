@@ -12,12 +12,13 @@ const AiTech: React.FC<AiTechProps> = ({ t }) => {
     <section className="py-40 relative overflow-hidden bg-black">
       {/* Background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(circle_at_center,_rgba(212,175,55,0.05),_transparent_70%)]" />
-      
+
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true, amount: 0.1 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true, amount: 0.1 }}
             className="inline-block px-4 py-1 border border-[#D4AF37]/40 text-[#D4AF37] text-[10px] uppercase tracking-[0.4em] mb-8"
           >
             Pioneering Intelligence
@@ -36,7 +37,8 @@ const AiTech: React.FC<AiTechProps> = ({ t }) => {
               <motion.div
                 key={i}
                 initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.1 }}
                 transition={{ delay: i * 0.1 }}
                 className="flex flex-col items-center"
               >
@@ -48,7 +50,7 @@ const AiTech: React.FC<AiTechProps> = ({ t }) => {
           </div>
         </div>
       </div>
-      
+
       {/* Burj Architecture Decor */}
       <div className="absolute bottom-0 right-0 w-1/3 h-1/2 border-r border-t border-[#D4AF37]/10 pointer-events-none" />
       <div className="absolute top-0 left-0 w-1/4 h-1/4 border-l border-b border-[#D4AF37]/10 pointer-events-none" />

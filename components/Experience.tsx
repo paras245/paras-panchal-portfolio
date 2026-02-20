@@ -20,7 +20,7 @@ const ExperienceItem: React.FC<{ exp: any, i: number }> = ({ exp, i }) => {
   const opacity = useTransform(scrollYProgress, [0, 1], [0, 1]);
 
   return (
-    <motion.div 
+    <motion.div
       ref={ref}
       style={{ x, opacity }}
       className="relative ltr:pl-10 md:ltr:pl-12 rtl:pr-10 md:rtl:pr-12 group"
@@ -32,14 +32,14 @@ const ExperienceItem: React.FC<{ exp: any, i: number }> = ({ exp, i }) => {
           <h3 className="text-xl md:text-2xl font-bold text-white group-hover:gold-shimmer transition-all">{exp.role}</h3>
           <a href={exp.link} target="_blank" rel="noopener noreferrer" className="text-base md:text-lg text-[#D4AF37]/80 font-medium hover:underline flex items-center gap-2">
             {exp.company}
-            <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+            <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
           </a>
         </div>
         <div className="text-left md:text-right">
           <span className="text-[9px] md:text-[10px] text-gray-500 uppercase tracking-widest bg-white/5 px-3 py-1 border border-white/10">{exp.location}</span>
         </div>
       </div>
-      
+
       <ul className="space-y-2 md:space-y-3 mb-6">
         {exp.details.map((detail: string, di: number) => (
           <li key={di} className="text-gray-400 text-xs md:text-sm leading-relaxed flex items-start gap-3">
@@ -50,10 +50,10 @@ const ExperienceItem: React.FC<{ exp: any, i: number }> = ({ exp, i }) => {
       </ul>
 
       <div className="flex flex-wrap gap-2 mt-4">
-         <span className="text-[9px] md:text-[10px] text-[#D4AF37] font-bold uppercase tracking-widest mr-2">Core Stack:</span>
-         {exp.tech.split(', ').map((t: string, ti: number) => (
-           <span key={ti} className="text-[8px] text-gray-500 border border-white/10 px-2 py-0.5 rounded-sm">{t}</span>
-         ))}
+        <span className="text-[9px] md:text-[10px] text-[#D4AF37] font-bold uppercase tracking-widest mr-2">Core Stack:</span>
+        {exp.tech.split(', ').map((t: string, ti: number) => (
+          <span key={ti} className="text-[8px] text-gray-500 border border-white/10 px-2 py-0.5 rounded-sm">{t}</span>
+        ))}
       </div>
     </motion.div>
   );
@@ -109,9 +109,10 @@ const Experience: React.FC<ExperienceProps> = ({ t }) => {
   return (
     <section id="experience" className="py-32 px-6 overflow-hidden">
       <div className="container mx-auto">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.1 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.1 }}
           className="mb-20"
         >
           <h2 className="text-3xl md:text-4xl font-bold gold-shimmer uppercase tracking-[0.2em]">{t.experienceTitle}</h2>

@@ -12,9 +12,10 @@ const About: React.FC<AboutProps> = ({ t }) => {
     <section id="about" className="py-32 relative">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, amount: 0.1 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, amount: 0.1 }}
             className="relative"
           >
             <div className="absolute -top-10 -left-10 w-40 h-40 border-t-2 border-l-2 border-[#D4AF37]/40" />
@@ -35,26 +36,27 @@ const About: React.FC<AboutProps> = ({ t }) => {
             </div>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true, amount: 0.1 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, amount: 0.1 }}
             className="grid grid-cols-2 gap-4"
           >
             <div className="space-y-4 pt-12">
-               <div className="aspect-[4/5] bg-[#141414] border border-[#D4AF37]/20 p-2 grayscale hover:grayscale-0 transition-all cursor-pointer overflow-hidden">
-                  <img src="https://picsum.photos/400/500?grayscale&v=1" className="w-full h-full object-cover opacity-60 hover:opacity-100 transition-opacity" alt="Office 1" />
-               </div>
-               <div className="aspect-square bg-[#141414] border border-[#D4AF37]/20 p-2 grayscale hover:grayscale-0 transition-all cursor-pointer overflow-hidden">
-                  <img src="https://picsum.photos/400/400?grayscale&v=2" className="w-full h-full object-cover opacity-60" alt="Dubai 1" />
-               </div>
+              <div className="aspect-[4/5] bg-[#141414] border border-[#D4AF37]/20 p-2 grayscale hover:grayscale-0 transition-all cursor-pointer overflow-hidden">
+                <img src="https://picsum.photos/400/500?grayscale&v=1" className="w-full h-full object-cover opacity-60 hover:opacity-100 transition-opacity" alt="Office 1" />
+              </div>
+              <div className="aspect-square bg-[#141414] border border-[#D4AF37]/20 p-2 grayscale hover:grayscale-0 transition-all cursor-pointer overflow-hidden">
+                <img src="https://picsum.photos/400/400?grayscale&v=2" className="w-full h-full object-cover opacity-60" alt="Dubai 1" />
+              </div>
             </div>
             <div className="space-y-4">
-               <div className="aspect-square bg-[#141414] border border-[#D4AF37]/20 p-2 grayscale hover:grayscale-0 transition-all cursor-pointer overflow-hidden">
-                  <img src="https://picsum.photos/400/400?grayscale&v=3" className="w-full h-full object-cover opacity-60" alt="Code 1" />
-               </div>
-               <div className="aspect-[4/5] bg-[#141414] border border-[#D4AF37]/20 p-2 grayscale hover:grayscale-0 transition-all cursor-pointer overflow-hidden">
-                  <img src="https://picsum.photos/400/500?grayscale&v=4" className="w-full h-full object-cover opacity-60" alt="Burj Khalifa" />
-               </div>
+              <div className="aspect-square bg-[#141414] border border-[#D4AF37]/20 p-2 grayscale hover:grayscale-0 transition-all cursor-pointer overflow-hidden">
+                <img src="https://picsum.photos/400/400?grayscale&v=3" className="w-full h-full object-cover opacity-60" alt="Code 1" />
+              </div>
+              <div className="aspect-[4/5] bg-[#141414] border border-[#D4AF37]/20 p-2 grayscale hover:grayscale-0 transition-all cursor-pointer overflow-hidden">
+                <img src="https://picsum.photos/400/500?grayscale&v=4" className="w-full h-full object-cover opacity-60" alt="Burj Khalifa" />
+              </div>
             </div>
           </motion.div>
         </div>
