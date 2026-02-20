@@ -24,7 +24,7 @@ const About: React.FC<AboutProps> = ({ t }) => {
               <p>{t.aboutP2}</p>
               <div className="pt-8 grid grid-cols-2 gap-8 border-t border-[#D4AF37]/10">
                 <div>
-                  <h4 className="text-[#D4AF37] font-bold text-2xl">2.5+</h4>
+                  <h4 className="text-[#D4AF37] font-bold text-2xl">2.9+</h4>
                   <p className="text-xs uppercase tracking-widest">Years Experience</p>
                 </div>
                 <div>

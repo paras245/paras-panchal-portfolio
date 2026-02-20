@@ -4,12 +4,14 @@ import { motion } from 'framer-motion';
 import { TranslationStrings, SkillCategory } from '../types';
 
 const skillData: SkillCategory[] = [
-  { title: "Frontend", skills: ["Angular (v10-v18)", "TypeScript", "JavaScript", "Bootstrap", "Tailwind CSS", "HTML5/CSS3"] },
-  { title: "Backend & Frameworks", skills: ["C#", "ASP.NET Core (v6-v9)", "MVC", "Web API", "Minimal APIs", ".NET Framework"] },
-  { title: "Database & ORM", skills: ["MS SQL Server", "EF Core", "Dapper ORM", "LINQ", "Vector Search"] },
-  { title: "Architecture", skills: ["Clean Architecture", "SOLID Principles", "CQRS", "MediatR", "OOP"] },
-  { title: "Real-time & Tooling", skills: ["SignalR", "RabbitMQ", "Swagger", "NUnit", "SonarLint", "IIS Hosting"] },
-  { title: "AI & Modern Tools", skills: ["AI API Integration", "GitHub Copilot", "Prompt Engineering", "Jira", "Agile SCRUM"] }
+  { title: "Languages", skills: ["C#", "JavaScript", "TypeScript", "Python", "Java"] },
+  { title: "Backend", skills: [".NET Core / ASP.NET Web API", "REST", "SOAP", "GraphQL", "MVC"] },
+  { title: "Frontend", skills: ["Angular", "React (foundational)", "HTML5", "CSS3", "Bootstrap", "Tailwind"] },
+  { title: "Databases & ORM", skills: ["MSSQL Server", "Relational Db", "Entity Framework Core", "Dapper"] },
+  { title: "Architecture", skills: ["RESTful APIs", "Microservices basics", "OOP", "Clean Architecture", "SOLID Principle"] },
+  { title: "Messaging & Realtime", skills: ["SignalR", "RabbitMQ", "Temporal", "Background Jobs"] },
+  { title: "AI & Dev Tools", skills: ["Github Copilot", "ChatGPT", "Claude", "Gemini", "Grok", "Antigravity", "WindSurf"] },
+  { title: "Tools & Cloud", skills: ["Git", "GitHub", "IIS", "Swagger", "Jira", "Agile/Scrum", "Bitbucket", "Slack", "Docker", "Postman", "PowerBI"] }
 ];
 
 interface SkillsProps {
@@ -20,7 +22,7 @@ const Skills: React.FC<SkillsProps> = ({ t }) => {
   return (
     <section id="skills" className="py-32 bg-[#050505]">
       <div className="container mx-auto px-6">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           className="text-center mb-20"
@@ -40,7 +42,7 @@ const Skills: React.FC<SkillsProps> = ({ t }) => {
               className="p-8 bg-[#141414] border border-[#D4AF37]/10 hover:border-[#D4AF37]/40 transition-all duration-300 relative group"
             >
               <div className="absolute top-0 right-0 w-12 h-12 flex items-center justify-center opacity-5 group-hover:opacity-20 transition-opacity">
-                 <div className="text-3xl font-black text-[#D4AF37]">0{idx + 1}</div>
+                <div className="text-3xl font-black text-[#D4AF37]">0{idx + 1}</div>
               </div>
               <h3 className="text-[#D4AF37] text-lg font-bold mb-6 tracking-widest uppercase">{cat.title}</h3>
               <div className="flex flex-wrap gap-2">

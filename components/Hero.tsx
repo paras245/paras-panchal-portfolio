@@ -65,9 +65,8 @@ const Hero: React.FC<HeroProps> = ({ t, lang }) => {
 
           <div className="min-h-[80px] md:min-h-[120px] flex flex-col justify-center">
             <h1
-              className={`text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black mb-6 tracking-tighter leading-tight whitespace-nowrap overflow-visible ${
-                lang === "ar" ? "font-arabic" : "font-english"
-              }`}
+              className={`text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black mb-6 tracking-tighter leading-tight whitespace-nowrap overflow-visible ${lang === "ar" ? "font-arabic" : "font-english"
+                }`}
             >
               <span className="gold-shimmer">{typedName}</span>
             </h1>
@@ -107,7 +106,13 @@ const Hero: React.FC<HeroProps> = ({ t, lang }) => {
             transition={{ delay: 0.5 }}
             className="flex flex-col sm:flex-row flex-wrap gap-4 md:gap-6 justify-center lg:justify-start"
           >
-            <button className="px-8 py-4 bg-[#D4AF37] text-black font-bold uppercase tracking-widest text-[10px] md:text-xs hover:bg-[#F9E79F] transition-all flex items-center justify-center gap-3">
+            <a
+              href="/images/Resume/PARAS PANCHAL_FullStackResume.pdf"
+              download="PARAS PANCHAL_FullStackResume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 bg-[#D4AF37] text-black font-bold uppercase tracking-widest text-[10px] md:text-xs hover:bg-[#F9E79F] transition-all flex items-center justify-center gap-3"
+            >
               {t.resumeBtn}
               <svg
                 className="w-4 h-4"
@@ -122,7 +127,7 @@ const Hero: React.FC<HeroProps> = ({ t, lang }) => {
                   d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
                 />
               </svg>
-            </button>
+            </a>
             <a
               href="#projects"
               className="px-8 py-4 border border-[#D4AF37]/50 hover:border-[#D4AF37] transition-all font-bold text-[10px] md:text-xs uppercase tracking-widest flex items-center justify-center"
@@ -132,28 +137,29 @@ const Hero: React.FC<HeroProps> = ({ t, lang }) => {
           </motion.div>
         </div>
 
-        {/* <div className="relative order-1 lg:order-2 flex justify-center">
+        <div className="relative order-1 lg:order-2 flex justify-center items-center">
           <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
+            initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            className="w-full max-w-[280px] md:max-w-none aspect-square bg-gradient-to-tr from-[#141414] to-black border border-[#D4AF37]/20 relative overflow-hidden flex items-center justify-center group"
+            className="relative w-[280px] h-[350px] sm:w-[320px] sm:h-[400px] md:w-[400px] md:h-[500px] rounded-3xl overflow-hidden group border-2 border-[#D4AF37]/20 hover:border-[#D4AF37] transition-all duration-700 hover:shadow-[0_0_50px_rgba(212,175,55,0.3)]"
           >
-            <div
-              className="absolute inset-0 bg-[url('/images/parasprofileimage1.jpg')] bg-cover bg-center bg-no-repeat opacity-10 grayscale transition-transform duration-1000 group-hover:scale-110"/>
+            {/* Image */}
+            <img
+              src="/images/heroimage.jpeg"
+              alt="Paras Panchal"
+              className="w-full h-full object-cover object-top opacity-90 group-hover:opacity-100 grayscale-[20%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+            />
 
-            <div className="relative z-10 w-4/5 h-4/5 border border-[#D4AF37]/30 flex flex-col items-center justify-center">
-              <div className="text-[6rem] md:text-[12rem] font-black gold-shimmer opacity-10 select-none">
-                PP
-              </div>
-              <div className="absolute bottom-6 md:bottom-10 px-6 text-center">
-                <p className="text-[8px] md:text-[10px] tracking-[0.5em] text-[#D4AF37] uppercase font-bold">
-                  Full Stack Excellence
-                </p>
-              </div>
-            </div>
-            <div className="absolute top-0 right-10 w-[1px] h-full bg-[#D4AF37]/40" />
+            {/* Shine Effect */}
+            <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-[rgba(255,255,255,0.2)] to-transparent opacity-0 group-hover:opacity-100 pointer-events-none transform -translate-x-full group-hover:translate-x-full transition-all duration-1000 ease-in-out" />
+
+            {/* Inner Gold Border */}
+            <div className="absolute inset-0 border-[1px] border-[#D4AF37]/0 group-hover:border-[#D4AF37]/50 rounded-3xl m-3 pointer-events-none transition-all duration-700" />
+
+            {/* Bottom Gradient for seamless blending */}
+            <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-[#000000] to-transparent pointer-events-none" />
           </motion.div>
-        </div> */}
+        </div>
       </div>
 
       <motion.div
