@@ -107,24 +107,24 @@ const App: React.FC = () => {
           <div className="container mx-auto max-w-5xl">
             <div className="flex flex-col gap-12">
               {[
-                {
-                  title: "Azure AI Essentials Professional",
-                  issuer: "LinkedIn Learning | Microsoft",
-                  desc: "Validated by LinkedIn Learning & Microsoft for expertise in Azure AI.",
-                  tags: ["AI", "Microsoft Azure", "Professional"],
-                  image: "/images/Certifactesjpg/1stCertificate.jpg",
-                  url: "https://www.linkedin.com/learning/certificates/dffc54b7f7cb4e58b56269fc5d6eec4d7edee11fcd7426666ccb79dd4b01151d?trk=share_certificate",
-                  delay: 0
-                },
-                {
-                  title: "Azure AI Workloads & ML",
-                  issuer: "LinkedIn Learning | Microsoft",
-                  desc: "Validated by LinkedIn Learning & Microsoft for expertise in Machine Learning Workloads on Azure.",
-                  tags: ["Machine Learning", "Azure", "AI Workloads"],
-                  image: "/images/Certifactesjpg/2ndCertificate.jpg",
-                  url: "https://www.linkedin.com/learning/certificates/22dce11d0db1634c09baa1c4cb30c50e2e35dedbc963f75ff2952fc0c88e139e?trk=share_certificate",
-                  delay: 0.1
-                },
+                // {
+                //   title: "Azure AI Essentials Professional",
+                //   issuer: "LinkedIn Learning | Microsoft",
+                //   desc: "Validated by LinkedIn Learning & Microsoft for expertise in Azure AI.",
+                //   tags: ["AI", "Microsoft Azure", "Professional"],
+                //   image: "/images/Certifactesjpg/1stCertificate.jpg",
+                //   url: "https://www.linkedin.com/learning/certificates/dffc54b7f7cb4e58b56269fc5d6eec4d7edee11fcd7426666ccb79dd4b01151d?trk=share_certificate",
+                //   delay: 0
+                // },
+                // {
+                //   title: "Azure AI Workloads & ML",
+                //   issuer: "LinkedIn Learning | Microsoft",
+                //   desc: "Validated by LinkedIn Learning & Microsoft for expertise in Machine Learning Workloads on Azure.",
+                //   tags: ["Machine Learning", "Azure", "AI Workloads"],
+                //   image: "/images/Certifactesjpg/2ndCertificate.jpg",
+                //   url: "https://www.linkedin.com/learning/certificates/22dce11d0db1634c09baa1c4cb30c50e2e35dedbc963f75ff2952fc0c88e139e?trk=share_certificate",
+                //   delay: 0.1
+                // },
                 {
                   title: "Practical GitHub Actions",
                   issuer: "LinkedIn Learning",

@@ -65,44 +65,36 @@ const Experience: React.FC<ExperienceProps> = ({ t }) => {
       role: "Junior Software Developer",
       company: "TechnoBrains Business Solutions",
       link: "https://technobrains.io/",
-      location: "Ahmedabad (US Healthcare Project)",
-      period: "06/2023 - 11/2025",
+      location: "Ahmedabad, India (US Healthcare Platform - Precise Imaging RadFlow 360)",
+      period: "03/2024 - Present",
       details: [
-        "Architected RESTful APIs for 'Precise RadFlow 360', a US-based radiology platform (MRI, X-RAY, CT).",
-        "Optimized data management with Dapper ORM/EF Core and integrated SignalR for real-time patient record updates.",
-        "Integrated enterprise tools: Keploy, Entelligence AI, QuickBooks, RabbitMQ, Temporal, Bitwarden, Tebra API, and NDepend.",
-        "Implemented Infinite Scrolling in DevExtreme Grid and built automated Cron Jobs for case management.",
-        "Engineered secure medical file upload systems and ID-based data normalization strategies.",
-        "Led .NET Core 6 to 8 upgrades and Angular 10 to 18 migrations while maintaining high code quality via SonarLint."
+        "Architected and delivered RESTful API endpoints using .NET Core 6/8, applying OOP, SOLID principles, JWT-based authentication and authorization, CORS configuration, and async/await patterns for high-throughput scalable workflows.",
+        "Migrated production .NET Core 6 APIs to .NET 8 using the .NET Upgrade AI Assistant, and assisted in upgrading the Angular frontend from v10 to v18, reducing build size and extending the Microsoft support lifecycle.",
+        "Assisted in integrating third-party services including QuickBooks, RabbitMQ, Temporal, Bitwarden Secret Manager, Tebra API, Keploy, Entelligence AI, JSDelivr, and NDepend into the live platform.",
+        "Implemented SignalR real-time notifications for patient record updates, eliminating polling and delivering instant updates across active user sessions.",
+        "Designed an ID-based data normalization strategy using master tables, replacing name-based references and improving data consistency across the system.",
+        "Built a secure patient document upload and folder management system enabling clinical staff to store, browse, and download documents directly from the frontend.",
+        "Developed optimized stored procedures, indexed views, triggers, and transactions in MSSQL Server for high-volume healthcare data.",
+        "Implemented Infinite Scrolling in DevExtreme Grid with dynamic record fetching and append logic for large patient datasets.",
+        "Built automated Cron Jobs for scheduled payment case tracking email notifications.",
+        "Developed an admin user-log module capturing login events including IP address, browser, device information, and authentication method.",
+        "Wrote NUnit unit tests for .NET Core Web API endpoints to improve reliability and regression testing.",
+        "Leveraged GitHub Copilot, Claude Code, and ChatGPT throughout the development cycle to accelerate code generation, code reviews, and debugging."
       ],
-      tech: "C#, .NET Core 6/8, Angular, MSSQL, SignalR, Dapper, EF Core, RabbitMQ, NUnit"
+      tech: "C#, .NET Core 6/8, Angular 18, MSSQL Server, EF Core, Dapper, SignalR, RabbitMQ, Temporal, NUnit"
     },
     {
       role: "Software Trainee",
       company: "TechnoBrains Business Solutions",
       link: "https://technobrains.io/",
       location: "Ahmedabad, India",
-      period: "03/2023 - 06/2023",
+      period: "03/2023 - 02/2024",
       details: [
-        "Mastered OOP principles, SOLID design patterns, and C# fundamentals for enterprise scalability.",
-        "Developed RESTful Web APIs using both Controller-based and Minimal API architectures.",
-        "Built expertise in MSSQL (Stored Procedures, Triggers) and frontend development with Angular.",
-        "Practiced professional DevOps workflows with Git, IIS deployment, and Agile SCRUM."
+        "Completed intensive full-stack training in .NET Core, C#, Web API, Angular, and MSSQL Server.",
+        "Delivered end-to-end sample applications covering RESTful API development, Angular UI integration, and relational database design.",
+        "Collaborated using Git-based version control workflows and Agile development practices."
       ],
-      tech: "C#, .NET Core, Web API, MVC, Angular, MSSQL, EF Core, Git, LINQ"
-    },
-    {
-      role: "Intern",
-      company: "SushmaTechnology",
-      link: "https://sushmatechnology.com/",
-      location: "Mumbai, India",
-      period: "6-Month Internship",
-      details: [
-        "Foundation in .NET Framework and web development essentials (HTML, CSS, JS/jQuery).",
-        "Implemented CRUD operations and AJAX-based client-server communication.",
-        "Contributed to database operations using MSSQL and participated in debugging sessions."
-      ],
-      tech: ".NET Framework, C#, MSSQL, jQuery, AJAX, HTML/CSS"
+      tech: "C#, .NET Core, Web API, Angular, MSSQL Server, EF Core, Git"
     }
   ];
 
