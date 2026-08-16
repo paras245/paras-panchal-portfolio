@@ -203,8 +203,8 @@ const App: React.FC = () => {
           <p className="text-[#D4AF37]/60 text-sm tracking-widest mb-6">PARAS PANCHAL &copy; 2026</p>
           <div className="flex justify-center gap-8 flex-wrap">
             <a href="https://github.com/paras245" target="_blank" rel="noopener noreferrer" className="hover:text-[#D4AF37] transition-colors text-[10px] tracking-widest">GITHUB</a>
-            <a href="https://www.linkedin.com/in/paras-panchal-718679223/" target="_blank" rel="noopener noreferrer" className="hover:text-[#D4AF37] transition-colors text-[10px] tracking-widest">LINKEDIN</a>
             <a href="https://www.youtube.com/@paraspanchal9708" target="_blank" rel="noopener noreferrer" className="hover:text-[#D4AF37] transition-colors text-[10px] tracking-widest">YOUTUBE</a>
+            <a href="https://www.linkedin.com/in/paras-panchal-718679223/" target="_blank" rel="noopener noreferrer" className="hover:text-[#D4AF37] transition-colors text-[10px] tracking-widest">LINKEDIN</a>
           </div>
         </div>
       </footer>
