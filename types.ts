@@ -38,6 +38,9 @@ export interface Project {
   github?: string;
   demo?: string;
   image: string;
+  category?: 'live' | 'enterprise' | 'ai' | 'showcase';
+  badge?: string;
+  featured?: boolean;
 }
 
 export interface SkillCategory {
