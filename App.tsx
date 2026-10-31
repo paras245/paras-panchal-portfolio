@@ -138,7 +138,7 @@ const App: React.FC = () => {
                   title: "Learning REST APIs",
                   issuer: "LinkedIn Learning",
                   desc: "Learned REST API fundamentals, including request and response structures, REST vs. GraphQL, URL and URI concepts, REST constraints, HTTP resources and methods, HTTP status codes, and authentication and authorization.",
-                  tags: ["REST APIs","API Development","HTTP","GraphQL","Authentication","Authorization"],
+                  tags: ["REST APIs","API Development","Status Code","JWT", "Async-Await","HTTP","SOAP","GraphQL","Dtos-Entities","CORS Policy","Webhook","WebSocket","Polling","Authentication","Authorization"],
                   image: "/images/Certifactesjpg/LearningRESTAPIs.jpg",
                   url: "https://www.linkedin.com/learning/certificates/0b35473a652f38a95e9fc236f05a903e43dd1ff4be20ef1aca98f29a136cb312",
                   delay: 0.2
