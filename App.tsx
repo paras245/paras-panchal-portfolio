@@ -149,7 +149,7 @@ const App: React.FC = () => {
                   desc: "Validated by LinkedIn Learning for expertise in CI/CD automation with GitHub Actions.",
                   tags: ["CI/CD", "GitHub Actions", "DevOps"],
                   image: "/images/Certifactesjpg/3rdCertificate.jpg",
-                  url: "https://www.linkedin.com/learning/certificates/487386563fb06e1d09964b0c44a7a872f547c1cb8a204af36038d90eb2bbb8f6?trk=share_certificate",
+                  url: "https://www.linkedin.com/learning/certificates/487386563fb06e1d09964b0c44a7a872f547c1cb8a204af36038d90eb2bbb8f6",
                   delay: 0.2
                 }
               ].map((cert, idx) => (
