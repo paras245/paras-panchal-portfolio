@@ -126,6 +126,15 @@ const App: React.FC = () => {
                 //   delay: 0.1
                 // },
                 {
+                  title: "Technical Support Fundamentals",
+                  issuer: "Google (Coursera)",
+                  desc: "Completed Google's Technical Support Fundamentals course, covering computer hardware, operating systems, software, troubleshooting, and the fundamentals of customer service and technical support.",
+                  tags: ["IT Support", "Computer Hardware", "Operating Systems", "Troubleshooting", "Customer Service"],
+                  image: "/images/Certifactesjpg/ITSupportFundamentalCoursera.jpg",
+                  url: "https://coursera.org/verify/NGVZVZ2OY9B3",
+                  delay: 0.2
+                },
+                {
                   title: "Practical GitHub Actions",
                   issuer: "LinkedIn Learning",
                   desc: "Validated by LinkedIn Learning for expertise in CI/CD automation with GitHub Actions.",
