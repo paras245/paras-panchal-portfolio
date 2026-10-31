@@ -126,7 +126,7 @@ const App: React.FC = () => {
                 //   delay: 0.1
                 // },
                 {
-                  title: "Technical Support Fundamentals",
+                  title: "Google Technical Support Fundamentals",
                   issuer: "Google (Coursera)",
                   desc: "Completed Google's Technical Support Fundamentals course, covering computer hardware, operating systems, software, troubleshooting, and the fundamentals of customer service and technical support.",
                   tags: ["IT Support", "Computer Hardware", "Operating Systems", "Troubleshooting", "Customer Service"],
