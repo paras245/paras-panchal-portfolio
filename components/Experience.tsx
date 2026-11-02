@@ -66,7 +66,7 @@ const Experience: React.FC<ExperienceProps> = ({ t }) => {
       company: "TechnoBrains Business Solutions",
       link: "https://technobrains.io/",
       location: "Ahmedabad, India (US Healthcare Platform - Precise Imaging RadFlow 360)",
-      period: "03/2024 - Present",
+      period: "03/2024 - 11/2025",
       details: [
         "Architected and delivered RESTful API endpoints using .NET Core 6/8, applying OOP, SOLID principles, JWT-based authentication and authorization, CORS configuration, and async/await patterns for high-throughput scalable workflows.",
         "Migrated production .NET Core 6 APIs to .NET 8 using the .NET Upgrade AI Assistant, and assisted in upgrading the Angular frontend from v10 to v18, reducing build size and extending the Microsoft support lifecycle.",

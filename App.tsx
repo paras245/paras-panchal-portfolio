@@ -218,7 +218,7 @@ const App: React.FC = () => {
       {/* Footer */}
       <footer className="py-20 border-t border-[#D4AF37]/10 bg-black text-center">
         <div className="container mx-auto px-6">
-          <p className="text-[#D4AF37]/60 text-sm tracking-widest mb-6">PARAS PANCHAL &copy; 2026</p>
+          <p className="text-[#D4AF37]/60 text-sm tracking-widest mb-6">PARAS PANCHAL &copy; {new Date().getFullYear()}</p>
           <div className="flex justify-center gap-8 flex-wrap">
             <a href="https://github.com/paras245" target="_blank" rel="noopener noreferrer" className="hover:text-[#D4AF37] transition-colors text-[10px] tracking-widest">GITHUB</a>
             <a href="https://www.youtube.com/@paraspanchal9708" target="_blank" rel="noopener noreferrer" className="hover:text-[#D4AF37] transition-colors text-[10px] tracking-widest">YOUTUBE</a>
