@@ -135,6 +135,19 @@ const App: React.FC = () => {
                   delay: 0.2
                 },
                 {
+                  title: "Microsoft SQL Fundamentals",
+                  issuer: "Microsoft (Coursera)",
+                  desc: "Learned the fundamentals of SQL and database management, covering SELECT, CREATE, UPDATE, DELETE, TRUNCATE, ALTER, DROP, CREATE OR ALTER, Joins, Data Types, Constraints, Views, Stored Procedures, Functions, String and Date Functions, Transactions, CASE Statements, Aliases, Aggregate Functions, and GitHub Copilot.",
+                  tags: ["SQL","Database Management","Psuedocode","SELECT","CREATE","UPDATE","DELETE","TRUNCATE","ALTER","DROP",
+                    "CREATE OR ALTER","SQL Joins","Data Types","Constraints","Views","Stored Procedures","SQL Functions",
+                    "String Functions","Date Functions","Transactions","CASE Statements","Aliases",
+                    "Aggregate Functions","IN Clause","NOT Clause","GitHub Copilot"
+                  ],
+                  image: "/images/Certifactesjpg/SQLFoundationCoursera.jpg",
+                  url: "https://www.coursera.org/account/accomplishments/verify/BDOR98SE2FY6",
+                  delay: 0.2
+                },
+                {
                   title: "Learning REST APIs",
                   issuer: "LinkedIn Learning",
                   desc: "Learned REST API fundamentals, including request and response structures, REST vs. GraphQL, URL and URI concepts, REST constraints, HTTP resources and methods, HTTP status codes, and authentication and authorization.",
