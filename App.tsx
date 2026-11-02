@@ -138,7 +138,7 @@ const App: React.FC = () => {
                   title: "Microsoft SQL Fundamentals",
                   issuer: "Microsoft (Coursera)",
                   desc: "Learned the fundamentals of SQL and database management, covering SELECT, CREATE, UPDATE, DELETE, TRUNCATE, ALTER, DROP, CREATE OR ALTER, Joins, Data Types, Constraints, Views, Stored Procedures, Functions, String and Date Functions, Transactions, CASE Statements, Aliases, Aggregate Functions, and GitHub Copilot.",
-                  tags: ["SQL","Database Management","Psuedocode","SELECT","CREATE","UPDATE","DELETE","TRUNCATE","ALTER","DROP",
+                  tags: ["SQL","Database Management","Psuedocode","ERD (Entity Relationship Diagram)","SELECT","CREATE","UPDATE","DELETE","TRUNCATE","ALTER","DROP",
                     "CREATE OR ALTER","SQL Joins","Data Types","Constraints","Views","Stored Procedures","SQL Functions",
                     "String Functions","Date Functions","Transactions","CASE Statements","Aliases",
                     "Aggregate Functions","IN Clause","NOT Clause","GitHub Copilot"
