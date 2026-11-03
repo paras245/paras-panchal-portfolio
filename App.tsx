@@ -156,6 +156,20 @@ const App: React.FC = () => {
                   url: "https://www.linkedin.com/learning/certificates/0b35473a652f38a95e9fc236f05a903e43dd1ff4be20ef1aca98f29a136cb312",
                   delay: 0.2
                 },
+
+                {
+                  title: "Dubai One Million Prompters -(Dubai Future Foundation)",
+                  issuer: "Dubai Future Foundation",
+                  desc: "Completed a Generative AI learning program by Dubai Future Foundation, exploring prompt engineering and AI tools such as ChatGPT, Gemini, and Claude. Gained practical experience in AI-powered data visualization, email drafting, sales and promotional campaigns, HR resume reviews, AI-assisted coding (Snake game & temperature converter), language translation, and audio/video generation. Learned role, context, and task-based prompting to improve AI outputs and integrate AI into existing workflows.",
+                  tags: [
+                    "Generative AI", "Prompt Engineering", "OpenAI ChatGPT","Google Gemini", "Anthropic Claude AI",
+                    "AI Productivity", "Data Visualization", "AI-Assisted Coding", "Sales & Marketing Scripts",
+                    "HR & Recruitment Resume Review", "Language Translation","AI Audio Generation","AI Video Generation"
+                  ],
+                  image: "/images/Certifactesjpg/DubaiOneMillionPrompterCertificate.jpg",
+                  url: "https://omp.dub.ai/certificate/1zUuZvr3Hnxk",
+                  delay: 0.2
+                },
                 {
                   title: "Practical GitHub Actions",
                   issuer: "LinkedIn Learning",
