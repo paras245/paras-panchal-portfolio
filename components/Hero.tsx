@@ -107,8 +107,8 @@ const Hero: React.FC<HeroProps> = ({ t, lang }) => {
             className="flex flex-col sm:flex-row flex-wrap gap-4 md:gap-6 justify-center lg:justify-start"
           >
             <a
-              href="/images/Resume/PARAS PANCHAL_FullStackResume.pdf"
-              download="PARAS PANCHAL_FullStackResume.pdf"
+              href="/images/Resume/Paras_Panchal_CV.pdf"
+              download="Paras_Panchal_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-[#D4AF37] text-black font-bold uppercase tracking-widest text-[10px] md:text-xs hover:bg-[#F9E79F] transition-all flex items-center justify-center gap-3"
