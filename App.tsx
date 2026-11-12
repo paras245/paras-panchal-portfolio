@@ -213,7 +213,7 @@ const App: React.FC = () => {
                     <img 
                         src={cert.image}
                         alt={cert.title}
-                      className="w-full h-full object-contain grayscale group-hover:grayscale-0 transition-all duration-700"
+                      className="w-full h-full object-contain group-hover:grayscale-0 transition-all duration-700"
                       onError={(e) => {
                         (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800";
                       }}
