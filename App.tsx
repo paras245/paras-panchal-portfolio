@@ -148,7 +148,7 @@ const App: React.FC = () => {
                   delay: 0.2
                 },
                 {
-                  title: "Data Manipulation and Transactions in SQL Server",
+                  title: "Microsoft Data Manipulation and Transactions in SQL Server",
                   issuer: "Microsoft (Coursera)",
                   desc: "Completed the Data Manipulation and Transactions in SQL Server course on Coursera, gaining practical knowledge of SQL data manipulation, transaction management, data integrity, and concurrency control. Covered INSERT, UPDATE, DELETE, WHERE clauses, ACID principles, COMMIT, ROLLBACK, SAVEPOINT, @@ERROR, @@ROWCOUNT, @@TRANCOUNT, TRY...CATCH, transaction recovery, locking (UPDLOCK, ROWLOCK, HOLDLOCK), isolation levels, dirty reads, lost updates, and repeatable reads. Explored SQL Server Profiler, Extended Events, Activity Monitor, DMVs, deadlock graph analysis, and Generative AI for query writing, optimization, and troubleshooting.",
                   tags: [
