@@ -133,7 +133,7 @@ const App: React.FC = () => {
                   image: "/images/Certifactesjpg/ITSupportFundamentalCoursera.jpg",
                   url: "https://coursera.org/verify/NGVZVZ2OY9B3",
                   delay: 0.2
-                },
+                },  
                 {
                   title: "Microsoft SQL Fundamentals",
                   issuer: "Microsoft (Coursera)",
@@ -145,6 +145,20 @@ const App: React.FC = () => {
                   ],
                   image: "/images/Certifactesjpg/SQLFoundationCoursera.jpg",
                   url: "https://www.coursera.org/account/accomplishments/verify/BDOR98SE2FY6",
+                  delay: 0.2
+                },
+                {
+                  title: "Data Manipulation and Transactions in SQL Server",
+                  issuer: "Microsoft (Coursera)",
+                  desc: "Completed the Data Manipulation and Transactions in SQL Server course on Coursera, gaining practical knowledge of SQL data manipulation, transaction management, data integrity, and concurrency control. Covered INSERT, UPDATE, DELETE, WHERE clauses, ACID principles, COMMIT, ROLLBACK, SAVEPOINT, @@ERROR, @@ROWCOUNT, @@TRANCOUNT, TRY...CATCH, transaction recovery, locking (UPDLOCK, ROWLOCK, HOLDLOCK), isolation levels, dirty reads, lost updates, and repeatable reads. Explored SQL Server Profiler, Extended Events, Activity Monitor, DMVs, deadlock graph analysis, and Generative AI for query writing, optimization, and troubleshooting.",
+                  tags: [
+                    "SQL Server","T-SQL","Data Manipulation", "Database Transactions", "ACID Principles","Data Integrity","COMMIT",
+                    "ROLLBACK","SAVEPOINT","Error Handling","TRY CATCH","Concurrency Control","Isolation Levels",
+                    "SQL Locking","Deadlock Analysis","SQL Server Profiler","Extended Events","Activity Monitor",
+                    "Dynamic Management Views","Query Optimization","Generative AI"
+                  ],
+                  image: "/images/Certifactesjpg/DataManipulationandTransactionsSQLServer.jpg",
+                  url: "https://coursera.org/share/7bd878c851c1feb0b291aee2d3ab8190",
                   delay: 0.2
                 },
                 {
