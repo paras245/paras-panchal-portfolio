@@ -3,8 +3,21 @@ import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion'
 import { TranslationStrings, Project } from '../types';
 
 const projects: Project[] = [
+
   {
     id: 1,
+    title: "PREDATOR INC Dubai Real Estate",
+    badge: "Real Estate & Property",
+    description: "A premium Dubai real estate platform designed to showcase luxury properties, residential apartments, villas, penthouses, and investment opportunities across the UAE. Features an elegant property discovery experience, detailed property listings, location-focused exploration, and a modern responsive interface tailored for Dubai's dynamic real estate market.",
+    tech: ["React","TypeScript","Tailwind CSS","Responsive UI/UX","Real Estate","Property Listings","Luxury Properties","Dubai Real Estate",
+           "UAE Property Market","Property Discovery","Netlify"],
+    image: "/projects/PredatorDubaiLivingDeviceShowcase.png",
+    demo: "https://predeator-inc.netlify.app/",
+    category: "live",
+    featured: true
+  },
+  {
+    id: 2,
     title: "Dubai Elite Car Rentals",
     badge: "Supercar & Luxury Rental",
     description: "Dubai's premier luxury & sports car rental platform featuring exotic supercars, hypercars, VIP chauffeur booking, and seamless UAE fleet reservations.",
@@ -15,7 +28,7 @@ const projects: Project[] = [
     featured: true
   },
   {
-    id: 2,
+    id: 3,
     title: "Zenhouz International",
     badge: "Bilingual FMCG Corporate",
     description: "SEO-structured bilingual EN/AR corporate web platform for a Dubai FMCG trading & distribution enterprise — featuring optimized meta tags, Open Graph architecture, and localized content delivery.",
@@ -26,7 +39,7 @@ const projects: Project[] = [
     featured: true
   },
   {
-    id: 3,
+    id: 4,
     title: "UAE Vision Real Estate",
     badge: "Dubai Luxury Property",
     description: "High-end luxury real estate showcase for Dubai premium penthouses and architectural developments, featuring dynamic property discovery, rich gallery views, and mobile-optimized speed.",
@@ -37,7 +50,7 @@ const projects: Project[] = [
     featured: true
   },
   {
-    id: 4,
+    id: 5,
     title: "Cosmic Dubai — NASA API Explorer",
     badge: "Space Telemetry & APOD",
     description: "Interactive cosmic exploration application powered by NASA Open APIs, delivering Astronomy Picture of the Day (APOD), Mars Rover telemetry, and celestial observation streams.",
@@ -48,7 +61,7 @@ const projects: Project[] = [
     featured: true
   },
   {
-    id: 5,
+    id: 6,
     title: "RoyalBite Dubai — Gourmet Dining",
     badge: "Culinary & Delivery",
     description: "Premium culinary delivery and dining showcase platform engineered for Dubai foodies, featuring interactive curated menus, chef specials, and instant order integration.",
@@ -59,7 +72,7 @@ const projects: Project[] = [
     featured: true
   },
   {
-    id: 6,
+    id: 7,
     title: "Paras Panchal Portfolio",
     badge: "Live Production Hub",
     description: "Official interactive portfolio showcasing full-stack .NET & Angular engineering solutions, Dubai career milestones, downloadable credentials, and dual-language design.",
@@ -69,7 +82,7 @@ const projects: Project[] = [
     category: "live"
   },
   {
-    id: 7,
+    id: 8,
     title: "Invoice Management Pro",
     badge: "Fintech Billing System",
     description: "Fintech-grade billing system with server-side reconciliation and transactional accuracy. Built on high-performance .NET enterprise architecture with SignalR real-time updates.",
@@ -79,7 +92,7 @@ const projects: Project[] = [
     category: "enterprise"
   },
   {
-    id: 8,
+    id: 9,
     title: "Predaking PDF AI Bot",
     badge: "Gen-AI Assistant",
     description: "Intelligent .NET 9 PDF assistant leveraging advanced AI models for semantic document interrogation, vector search queries, and context-aware enterprise responses.",
@@ -89,7 +102,7 @@ const projects: Project[] = [
     category: "ai"
   },
   {
-    id: 9,
+    id: 10,
     title: "Burj Khalifa Experience",
     badge: "Architectural Showcase",
     description: "A luxury high-performance landing page inspired by Dubai's iconic architecture, featuring choreographed animations, fluid transitions, and immersive UX.",
@@ -99,7 +112,7 @@ const projects: Project[] = [
     category: "showcase"
   },
   {
-    id: 10,
+    id: 11,
     title: "3D Image Slider",
     badge: "Interactive 3D CSS",
     description: "Cutting-edge 3D visualization carousel component for media portfolios, utilizing hardware-accelerated CSS transforms and responsive touch logic.",
@@ -109,7 +122,7 @@ const projects: Project[] = [
     category: "showcase"
   },
   {
-    id: 11,
+    id: 12,
     title: "Union Hardware",
     badge: "Retail Distribution",
     description: "Full-scale responsive retail portal for industrial hardware distribution, optimized for high throughput, catalog search, and fluid navigation.",
@@ -119,7 +132,7 @@ const projects: Project[] = [
     category: "live"
   },
   {
-    id: 12,
+    id: 13,
     title: "Dahilia Creations",
     badge: "Enterprise .NET",
     description: "Enterprise project repository featuring scalable Clean Architecture patterns, domain-driven design, and mission-critical business logic.",
